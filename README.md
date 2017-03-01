@@ -68,19 +68,19 @@ app.controller('customersCtrl', function($scope) {
 
 $scope.personalDetails = [
         {
-            'fname':'Muhammed',
-            'lname':'Shanid',
-            'email':'shanid@shanid.com'
+            'fname':'abc',
+            'lname':'l',
+            'email':'abc@gmail.com'
         },
         {
-            'fname':'John',
-            'lname':'Abraham',
-            'email':'john@john.com'
+            'fname':'jkl',
+            'lname':'a',
+            'email':'jkl@gmail.com'
         },
         {
-            'fname':'Roy',
-            'lname':'Mathew',
-            'email':'roy@roy.com'
+            'fname':'lmn',
+            'lname':'a',
+            'email':'lmn@gmail.com'
         }];
 		
 		$scope.addNew = function(personalDetail){
